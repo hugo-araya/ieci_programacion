@@ -1,3 +1,4 @@
+status = False
 rut = input('Digite un rut: ')
 contar = rut.count('-')
 if contar != 1:
@@ -15,10 +16,33 @@ else:
             if len(dv) != 1:
                 print('El rut no es valido (4)')
             else:
-                if dv == 'k':
-                    print('El rut es correcto')
+                if dv.lower() == 'k':
+                    status = True
                 else:
                     if dv.isdigit() != True:
                         print('El rut no es valido (5)')
                     else:
-                        print('El rut es correcto')
+                        status = True
+
+if status == True:
+    factor = "765432765432"
+    suma = 0
+    largo = len(numero)
+    j = -1
+    while j >= largo*-1:
+        suma = suma + int(numero[j])*int(factor[j])
+        j = j - 1
+    resto = suma % 11
+    dv1 = 11 - resto
+    if dv1 == 10:
+        dv1 = "k"
+    else:
+        dv1 = str(dv1)
+    if dv == dv1:
+        print("El rut esta correcto")
+    else:
+        print('El rut no es valido (6)' )
+
+
+
+

@@ -1,0 +1,1 @@
+ print('El rut no es valido (2)')
