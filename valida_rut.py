@@ -1,6 +1,7 @@
 status = False
 rut = input('Digite un rut: ')
 contar = rut.count('-')
+
 if contar != 1:
     print('El rut no es valido (1)')
 else:
