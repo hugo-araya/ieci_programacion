@@ -1,0 +1,28 @@
+Numero de lista: 1
+Nombre: Alejandro
+Nota: 6
+---------------------------
+Numero de lista: 2
+Nombre: Luciano
+Nota: 7
+---------------------------
+Numero de lista: 3
+Nombre: Claudio
+Nota: 6
+---------------------------
+Numero de lista: 4
+Nombre: Pollet
+Nota: 7
+---------------------------
+Numero de lista: 5
+Nombre: Luciano 2
+Nota: 6
+---------------------------
+Numero de lista: 6
+Nombre: Nolberto
+Nota: 7
+---------------------------
+Numero de lista: 7
+Nombre: Sarany
+Nota: 6
+---------------------------
