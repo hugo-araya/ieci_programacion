@@ -51,7 +51,15 @@ def es_vocal_2(carac):
         return True
     else:
         return False
+
+def es_vocal_3(carac):
+    vocales = 'aeiouAEIOU'
+    if carac in vocales:
+        return True
+    else:
+        return False
+
 if __name__ == '__main__':
     caracter = 'a'
-    resultado = es_vocal_1(caracter)
+    resultado = es_vocal_3(caracter)
     print(resultado)
