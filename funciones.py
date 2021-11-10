@@ -68,5 +68,11 @@ def es_vocal_4(carac):
 
 if __name__ == '__main__':
     caracter = 'a'
+    resultado = es_vocal_1(caracter)
+    print(resultado)
+    resultado = es_vocal_2(caracter)
+    print(resultado)
+    resultado = es_vocal_3(caracter)
+    print(resultado)
     resultado = es_vocal_4(caracter)
     print(resultado)
