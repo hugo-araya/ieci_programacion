@@ -67,7 +67,7 @@ def es_vocal_4(carac):
         return False
 
 if __name__ == '__main__':
-    caracter = 'a'
+    caracter = 'B'
     resultado = es_vocal_1(caracter)
     print(resultado)
     resultado = es_vocal_2(caracter)
