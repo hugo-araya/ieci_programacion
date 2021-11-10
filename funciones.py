@@ -59,7 +59,14 @@ def es_vocal_3(carac):
     else:
         return False
 
+def es_vocal_4(carac):
+    vocales = 'AEIOU'
+    if carac.upper() in vocales:
+        return True
+    else:
+        return False
+
 if __name__ == '__main__':
     caracter = 'a'
-    resultado = es_vocal_3(caracter)
+    resultado = es_vocal_4(caracter)
     print(resultado)
