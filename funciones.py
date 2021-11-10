@@ -34,15 +34,19 @@ def max_de_tres_o(numero1, numero2, numero3):
 def max_de_tres_x(numero1, numero2, numero3):
     return max(max(numero1, numero2), numero3)
 
+def largo(lista):
+    contador = 0
+    for elem in lista:
+        contador = contador + 1
+    return contador
+
+def es_vocal_1(carac):
+    if carac == 'a' or carac == 'e' or carac == 'i' or carac == 'o' or carac == 'u':
+        return True
+    else:
+        return False
+
 if __name__ == '__main__':
-    n1 = 5
-    n2 = 2
-    n3 = 5
-    mayor = MAX_DE_TRES(n1,n2,n3)
-    print(mayor)
-    mayor = max_de_tres(n1,n2,n3)
-    print(mayor)
-    mayor = max_de_tres_o(n1,n2,n3)
-    print(mayor)
-    mayor = max_de_tres_x(n1,n2,n3)
-    print(mayor)
+    caracter = 'a'
+    resultado = es_vocal_1(caracter)
+    print(resultado)
