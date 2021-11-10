@@ -46,6 +46,11 @@ def es_vocal_1(carac):
     else:
         return False
 
+def es_vocal_2(carac):
+    if carac == 'a' or carac == 'e' or carac == 'i' or carac == 'o' or carac == 'u' or carac == 'A' or carac == 'E' or carac == 'I' or carac == 'O' or carac == 'U':
+        return True
+    else:
+        return False
 if __name__ == '__main__':
     caracter = 'a'
     resultado = es_vocal_1(caracter)
