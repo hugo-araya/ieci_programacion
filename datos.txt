@@ -1,3 +1,5 @@
-Hugo
-Araya
-2021
+Hugo,Araya,2021
+Nolberto,Gonzalez,2019
+Polett,Ponce,2020
+Lucas,Lira,2017
+Pedro,Picapiedra,1000
