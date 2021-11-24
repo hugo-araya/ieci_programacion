@@ -8,13 +8,18 @@ def leibniz(iteraciones):
     return 4 * suma
 
 def wallis(iteraciones):
-    # ....
+    n = 1
+    prod = 1
+    while n <= iteraciones:
+        termino = (2*n/(2*n-1))*(2*n/(2*n+1))
+        prod = prod * termino
+        n = n + 1
     return 2 * prod
 
 if __name__ == '__main__':
-    leibniz_PI = leibniz(100000)
-    print(leibniz_PI)
-    wallis_PI = wallis(100000)
-    print(wallis_PI)
-    
-
+    iter = 4000000
+    PI_estimado = 3.141592
+    leibniz_PI = leibniz(iter)
+    print(leibniz_PI,abs(leibniz_PI - PI_estimado))
+    wallis_PI = wallis(iter)
+    print(wallis_PI, abs(wallis_PI-PI_estimado))
