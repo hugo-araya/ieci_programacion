@@ -1,1 +1,11 @@
-600
+from tkinter import *
+ventana = Tk()
+ventana.title('Primera ventana')
+label1 = Label(ventana,text="Intro to Tkinter")
+label1.grid(row=1,column=1)
+variable_string = StringVar()
+caja = Entry(ventana,textvariable=variable_string)
+caja.grid(row=1,column=2)
+boton1 = Button(ventana,text="Boton 1")
+boton1.grid(row=1,column=3)
+ventana.mainloop()
